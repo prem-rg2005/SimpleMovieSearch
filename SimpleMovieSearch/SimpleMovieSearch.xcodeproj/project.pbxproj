@@ -21,6 +21,7 @@
 		3BDC61DD2D6F5D3B00D55A6C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61DC2D6F5D3B00D55A6C /* SearchBarView.swift */; };
 		3BDC61E02D6F61C300D55A6C /* MovieApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61DF2D6F61C300D55A6C /* MovieApiService.swift */; };
 		3BDC61E22D6F634D00D55A6C /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61E12D6F634D00D55A6C /* MovieListCell.swift */; };
+		3BDC61E42D6F66EC00D55A6C /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61E32D6F66EC00D55A6C /* MovieListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		3BDC61DC2D6F5D3B00D55A6C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		3BDC61DF2D6F61C300D55A6C /* MovieApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApiService.swift; sourceTree = "<group>"; };
 		3BDC61E12D6F634D00D55A6C /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
+		3BDC61E32D6F66EC00D55A6C /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				3BDC61DC2D6F5D3B00D55A6C /* SearchBarView.swift */,
 				3BDC61E12D6F634D00D55A6C /* MovieListCell.swift */,
+				3BDC61E32D6F66EC00D55A6C /* MovieListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				3BDC61DD2D6F5D3B00D55A6C /* SearchBarView.swift in Sources */,
 				3BDC61DB2D6F5CA300D55A6C /* Image+Extensions.swift in Sources */,
 				3BDC61D02D6F569B00D55A6C /* Movie.swift in Sources */,
+				3BDC61E42D6F66EC00D55A6C /* MovieListView.swift in Sources */,
 				3BDC61D92D6F592600D55A6C /* Colors+Extensions.swift in Sources */,
 				3BDC61E22D6F634D00D55A6C /* MovieListCell.swift in Sources */,
 			);
