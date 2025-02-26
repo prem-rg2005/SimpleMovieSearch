@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct MovieListView: View {
+    @State private var searchQuery = ""
+    @ObservedObject private var viewModel = MovieListViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                SearchBarView(searchText: $searchQuery, onSearch: searchMovies)
+                
+            }
+            .navigationTitle("Movie List")
+        }
+        
     }
+    
+    private func searchMovies() {
+        viewModel.searchMovies(query: searchQuery)
+    }
+
 }
 
 #Preview {
