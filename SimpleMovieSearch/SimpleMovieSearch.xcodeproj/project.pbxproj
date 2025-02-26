@@ -17,6 +17,7 @@
 		3BDC61D02D6F569B00D55A6C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61CF2D6F569B00D55A6C /* Movie.swift */; };
 		3BDC61D22D6F575F00D55A6C /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61D12D6F575F00D55A6C /* MovieResponse.swift */; };
 		3BDC61D92D6F592600D55A6C /* Colors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61D82D6F592600D55A6C /* Colors+Extensions.swift */; };
+		3BDC61DB2D6F5CA300D55A6C /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61DA2D6F5CA300D55A6C /* Image+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		3BDC61CF2D6F569B00D55A6C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		3BDC61D12D6F575F00D55A6C /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		3BDC61D82D6F592600D55A6C /* Colors+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extensions.swift"; sourceTree = "<group>"; };
+		3BDC61DA2D6F5CA300D55A6C /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				3BDC61D82D6F592600D55A6C /* Colors+Extensions.swift */,
+				3BDC61DA2D6F5CA300D55A6C /* Image+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				3BDC61A72D6F555600D55A6C /* ContentView.swift in Sources */,
 				3BDC61D22D6F575F00D55A6C /* MovieResponse.swift in Sources */,
 				3BDC61A52D6F555600D55A6C /* SimpleMovieSearchApp.swift in Sources */,
+				3BDC61DB2D6F5CA300D55A6C /* Image+Extensions.swift in Sources */,
 				3BDC61D02D6F569B00D55A6C /* Movie.swift in Sources */,
 				3BDC61D92D6F592600D55A6C /* Colors+Extensions.swift in Sources */,
 			);
