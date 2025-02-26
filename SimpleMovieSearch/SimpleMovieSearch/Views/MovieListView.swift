@@ -25,27 +25,27 @@ struct MovieListView: View {
                         .foregroundColor(.red)
                         .frame(maxHeight: .infinity)
                 } else {
-                    ForEach(viewModel.movies) { movie in
-                        MovieListCell(movie: movie)
-                            .listRowSeparator(.hidden)
-                    }
-                    
-                    if viewModel.shouldLoadMoreMovies() {
-                        HStack {
-                            Spacer()
-                            Text("Loading more movies.....")
-                                .padding()
-                            Spacer()
+                    List {
+                        ForEach(viewModel.movies) { movie in
+                            MovieListCell(movie: movie)
                         }
-                        .onAppear {
-                            viewModel.fetchMovies()
+                        if viewModel.shouldLoadMoreMovies() {
+                            HStack {
+                                Spacer()
+                                Text("Loading more movies.....")
+                                    .padding()
+                                Spacer()
+                            }
+                            .onAppear {
+                                viewModel.fetchMovies()
+                            }
                         }
                     }
+                    .listStyle(PlainListStyle())
                 }
             }
             .navigationTitle("Movie List")
         }
-        
     }
     
     private func searchMovies() {
