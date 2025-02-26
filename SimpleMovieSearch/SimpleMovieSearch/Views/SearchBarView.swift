@@ -10,7 +10,13 @@ import SwiftUI
 struct SearchBarView: View {
     @Binding var searchText: String
     var body: some View {
-        TextField("Search for movie name...", text: $searchText)
+        HStack {
+            Image.sysImage.searchImage
+                .foregroundColor(.blue)
+            TextField("Search for movie name...", text: $searchText)
+                .foregroundColor(Color.themeColor.primaryText)
+                
+        }
     }
 }
 

@@ -13,4 +13,5 @@ extension Image {
 }
 
 struct SystemImageNames {
+    let searchImage = Image(systemName: "magnifyingglass")
 }
