@@ -14,4 +14,5 @@ extension Image {
 
 struct SystemImageNames {
     let searchImage = Image(systemName: "magnifyingglass")
+    let clearSearch = Image(systemName: "xmark.circle.fill")
 }
