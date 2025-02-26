@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
+
+extension Color {
+    static let themeColor = AppColor()
+}
+
+struct AppColor {
+    let bgColor = Color("BgColor")
+    let primaryText = Color("PrimaryText")
+    let secondaryText = Color("SecondaryText")
+    let cellBg = Color("ListCellColor")
+}
