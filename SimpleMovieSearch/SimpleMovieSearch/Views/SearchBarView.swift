@@ -21,10 +21,10 @@ struct SearchBarView: View {
                 )
             TextField("Search for movie name...", text: $searchText)
                 .foregroundColor(Color.themeColor.primaryText)
-                .onChange(of: searchText, { _,_ in
+                .onChange(of: searchText) { _ in
                     // This triggers search function when user input changes
                     onSearch()
-                })
+                }
                 .overlay(alignment: .trailing) {
                     Image.sysImage.clearSearch
                         .padding()
