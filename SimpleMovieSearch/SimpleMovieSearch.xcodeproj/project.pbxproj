@@ -24,6 +24,7 @@
 		3BDC61E42D6F66EC00D55A6C /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61E32D6F66EC00D55A6C /* MovieListView.swift */; };
 		3BDC61E62D6F674300D55A6C /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61E52D6F674300D55A6C /* MovieViewModel.swift */; };
 		3BDC61E82D6F734C00D55A6C /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC61E72D6F734C00D55A6C /* SplashScreen.storyboard */; };
+		3BDC61EB2D6F756200D55A6C /* MockMovieApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61EA2D6F756200D55A6C /* MockMovieApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		3BDC61E32D6F66EC00D55A6C /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		3BDC61E52D6F674300D55A6C /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		3BDC61E72D6F734C00D55A6C /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		3BDC61EA2D6F756200D55A6C /* MockMovieApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovieApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		3BDC61B42D6F555700D55A6C /* SimpleMovieSearchTests */ = {
 			isa = PBXGroup;
 			children = (
+				3BDC61E92D6F753B00D55A6C /* ApiService */,
 				3BDC61B52D6F555800D55A6C /* SimpleMovieSearchTests.swift */,
 			);
 			path = SimpleMovieSearchTests;
@@ -193,6 +196,14 @@
 			isa = PBXGroup;
 			children = (
 				3BDC61DF2D6F61C300D55A6C /* MovieApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		3BDC61E92D6F753B00D55A6C /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC61EA2D6F756200D55A6C /* MockMovieApiService.swift */,
 			);
 			path = ApiService;
 			sourceTree = "<group>";
@@ -347,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BDC61B62D6F555800D55A6C /* SimpleMovieSearchTests.swift in Sources */,
+				3BDC61EB2D6F756200D55A6C /* MockMovieApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

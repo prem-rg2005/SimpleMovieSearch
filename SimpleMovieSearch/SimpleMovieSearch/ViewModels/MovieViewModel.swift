@@ -12,13 +12,13 @@ class MovieListViewModel: ObservableObject {
     @Published var movies: [Movie] = []
     @Published var isLoading = false
     
-    private var movieService = MovieApiService()
     private var cancellables = Set<AnyCancellable>()
     private var searchQuery = ""
-    private var totalResults = 0 // Total no. of search results that can be displayed based on query
-    private var currentPage = 1  // For pagination
     private var isPaginating = false
     
+    var movieService = MovieApiService()
+    var currentPage = 1  // For pagination
+    var totalResults = 0 // Total no. of search results that can be displayed based on query
     var errorMessage: String? = nil
     
     func searchMovies(query: String) {
