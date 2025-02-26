@@ -46,6 +46,10 @@ struct MovieListView: View {
             }
             .navigationTitle("Movie List")
         }
+        .onAppear {
+            // Default list to be shown when screen loads for the very first time only
+            viewModel.searchMovies(query: "Transformers")
+        }
     }
     
     private func searchMovies() {
